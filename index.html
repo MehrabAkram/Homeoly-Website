@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
@@ -17,24 +18,52 @@
   </head>
   <body>
     
-    <div class="container">
+<!-- navbar -->
 
-        <header>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">হোম <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ব্লগ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">সার্ভিস</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">যোগাযোগ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+    <div class="container-fluid">
 
-            <div class="wrapper">
+     
 
-                 <!-- Start of navigation maenu -->
+       <!-- this is newww containeerr  -->
 
-                <nav>
+             <!-- Start of navigation maenu -->
+<!-- 
+             <nav>
 
                     <div class="row">
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-3">
                             <div class="logo">
                                 <a href="#"><img src="images/logo.png" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-lg-7 col-md-7">
                             <ul>
                                 <li>
                                     <a href="#">হোম</a>
@@ -51,7 +80,7 @@
     
                             </ul>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2">
                             <div class="language-plugin"> Bangla </div>
                         </div>
 
@@ -64,37 +93,62 @@
                 <!-- Start of hero section -->
 
                 <div class="hero-section">
-
+                   
+                        
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="left">
-                                <h1>ডিজিটাল এই যুগে <br> হোমিওপ্যাথি চিকিৎসা <br> নিন ঘরে বসেই!</h1>
+
+                        <div class="heroimg">
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="left">
+                                    <div class="head"> 
+                                        <p>ডিজিটাল এই যুগে <br> হোমিওপ্যাথি চিকিৎসা <br> নিন ঘরে বসেই!</p>
+                                    </div>
+                                    
+                                    <div class="underline">
+                                        <img src="images/homeopathy-underline.png" alt="">
+                                    </div> <br>
+    
+                                    <div class="hero-description">
+                                        <p>আমাদের ডিজিটালাইজেশন সরঞ্জামগুলি হোমিওপ্যাথিক <br>
+                                            ডাক্তারদের আপনার বাড়ির আরাম থেকে ব্যক্তিগত <br>
+                                            পরামর্শ, সঠিক রোগ নির্ণয় এবং উপযুক্ত চিকিৎসা <br>
+                                            পরিকল্পনা সরবরাহ করতে সক্ষম করে।
+                                        </p>
+                                    </div> <br>
+    
+                                    <div class="direct-download">
+                                        <p>সরাসরি ডাউনলোড করুন</p>
+                                    </div>
                                 
-                                <div class="underline">
-                                    <img src="images/homeopathy-underline.png" alt="">
-                                </div> <br>
+                                    <button>Download Now</button>
+    
+                                    <div class="app-download-img">
+                                        <img src="images/app_download.png" alt=""> 
 
-                                <p>আমাদের ডিজিটালাইজেশন সরঞ্জামগুলি হোমিওপ্যাথিক <br>
-                                    ডাক্তারদের আপনার বাড়ির আরাম থেকে ব্যক্তিগত <br>
-                                    পরামর্শ, সঠিক রোগ নির্ণয় এবং উপযুক্ত চিকিৎসা <br>
-                                    পরিকল্পনা সরবরাহ করতে সক্ষম করে।
-                                </p> <br>
-
-                                <h3>সরাসরি ডাউনলোড করুন</h3>
-                            
-                                <button>Download Now</button>
-
-                                <img src="images/app_download.png" alt=""> 
-                            
-                                <div class="mouse">
-                                    <img src="images/mouse.png" alt="">
+                                    </div>
+                                
+                                    <!-- <div class="mouse">
+                                        <img src="images/mouse.png" alt="">
+                                    </div> -->
                                 </div>
                             </div>
+                          
+                            <div class="col-lg-6 col-md-6">
+                                <div class="right">
+                                  <div class="image">
+                                    <img src="images/phone-support.png" alt="">
+                                  </div> 
+                                </div>
+                               
+                            </div>
+
                         </div>
-                        <div class="col-lg-4 offset-2">
-                            <img src="images/phone-support.png" alt="">
-                        </div>
+                      
+                        
                     </div>
+
+
                     <div class="row">
                         
                             
@@ -106,23 +160,22 @@
 
             </div>
 
-        </header>
+     
 
             <!-- End of Header Section -->
 
             <!-- start of Feature Section -->
-
-        <div class="wrapper">
+        <div class="container-fluid">
             <div class="features">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-md-12">
                         <h1>আমাদের ডিজিটাল হোমিওপ্যাথি <br> অ্যাপ মূল বৈশিষ্ট্য</h1>
                     </div>
                 </div>
 
                 <div class="slider">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-3">
                             <div class="first-card">
                                 <div class="feature-icon">
                                     <img src="images/first-feature-icon.png" alt="">
@@ -138,8 +191,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
-                            <div class="second-card">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="first-card">
                                 <div class="feature-icon">
                                     <img src="images/second-feature-icon.png" alt="">
                                 </div>
@@ -154,8 +207,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
-                            <div class="third-card">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="first-card">
                                 <div class="feature-icon">
                                     <img src="images/third-feature-icon.png" alt="">
                                 </div>
@@ -170,8 +223,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
-                            <div class="fourth-card">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="first-card">
                                 <div class="feature-icon">
                                     <img src="images/fourth-feature-icon.png" alt="">
                                 </div>
@@ -191,22 +244,21 @@
 
             </div>
         </div>
-
         <!-- End of Features section -->
 
         <!-- start of Doctor Dashboard Section -->
 
-        <div class="wrapper">
+        <div class="container-fluid">
             <div class="doctor-dashboard">
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="left">
                             <img src="images/doctors-dashboard.png" alt="">
                         </div>
                     </div>
 
-                    <div class="col-lg-5 offset-1">
+                    <div class="col-lg-5 offset-1 col-md-6">
                         <div class="right">
                             <h2>ডাক্তারদের ড্যাশবোর্ড</h2>
 
@@ -219,47 +271,61 @@
                         </p>
 
                         <div class="service-one">
-                            <img src="images/first-dashboard-icon.png" alt="">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2">
+                                    <img src="images/first-dashboard-icon.png" alt="">
+                                </div>
 
-                            <div class="service-text">
-                                <h4>এক দেখাই রোগ নির্ণয়</h4>
-                                <p>
-                                    আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা <br>
-                                    অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
-                                </p>
+                                <div class="col-lg-4 col-md-4"> 
+                                    <div class="service-text">
+                                        <h4>এক দেখাই রোগ নির্ণয়</h4>
+                                        <p>
+                                            আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা <br>
+                                            অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
+                                        </p>
 
+                            </div>
+                                </div>
                             </div>
                         </div>
 
                         <div class="service-two">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2">
+                                    <img src="images/second-dashboard-icon.png" alt="">
+                                </div>
 
-                            <img src="images/second-dashboard-icon.png" alt="">
-
-                            <div class="service-text">
-
-                                <h4>সাথে সাথে আপডেট</h4>
-
-                                <p>
-                                    আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা <br>
+                                <div class="col-lg-4 col-md-4"> 
+                                    <div class="service-text">
+                                        <h4>সাথে সাথে আপডেট</h4>
+                                        <p>
+                                            আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা <br>
                                     অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
-                                </p>
+                                        </p>
 
                             </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="service-three">
 
-                            <img src="images/third-dashboard-icon.png" alt="">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2">
+                                    <img src="images/third-dashboard-icon.png" alt="">
+                                </div>
 
-                            <div class="service-text">
-
-                                <h4>সাথে সাথে আপডেট</h4>
-
-                                <p>
-                                    আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা <br>
+                                <div class="col-lg-4 col-md-4"> 
+                                    <div class="service-text">
+                                        <h4>সাথে সাথে আপডেট</h4>
+                                        <p>
+                                            আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা <br>
                                     অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
-                                </p>
+                                        </p>
 
+                            </div>
+                                </div>
                             </div>
                         </div>
 
@@ -275,13 +341,13 @@
 
         <!-- start of Benifit Section -->
 
-        <div class="wrapper">
+        <div class="container-fluid">
 
             <div class="benifits">
 
                 <div class="row">
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-md-12">
 
                         <div class="first-section">
                             <h3>
@@ -298,42 +364,46 @@
 
                 <div class="benifit-section">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4">
                             <div class="left">
                                 <div class="first-benifit">
                                     <div class="number-one">
                                         <b>১</b>
                                     </div>
 
-                                    <h4>ডিজিটাল প্রেসক্রিপশন</h4>
+                                    <div class="first-benifit-descr">
+                                        <h4>ডিজিটাল প্রেসক্রিপশন</h4>
 
                                     <span>
                                         ডিজিটাল প্রেসক্রিপশন প্রক্রিয়াটি সার্বজনীনভাবে সহজ <br> 
                                         করে, যা ডাক্তারদেরকে দ্রুত ঔষধের প্রেসক্রিপশনগুলি<br>
                                         প্রেরণ করার সুযোগ প্রদান করে দেয়।
                                     </span>
+                                    </div>
 
                                 </div>
 
-                                <div class="second-benifit">
-                                    
-                                    <div class="number-two">
+
+                                <div class="first-benifit">
+                                    <div class="number-one number-two">
                                         <b>২</b>
                                     </div>
 
-                                    <h4>রোগীর প্রেসক্রিপশন দীর্ঘদিন সংরক্ষণ </h4>
-                                    
+                                    <div class="first-benifit-descr">
+                                        <h4>রোগীর প্রেসক্রিপশন দীর্ঘদিন সংরক্ষণ</h4>
+
                                     <span>
                                         রোগীদের প্রেসক্রিপশন সংরক্ষণের জন্য একটি নিরাপদ <br>
                                         এবং বিশ্বস্ত মাধ্যম হোমোওলি।
                                     </span>
+                                    </div>
 
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4">
 
                             <div class="middle">
                                 <img src="images/benifit-phone-image.png" alt="">
@@ -341,7 +411,7 @@
 
                         </div>
 
-                        <div class="col-lg-3 offset-1">
+                        <div class="col-lg-3 offset-1 col-md-4">
 
                             <div class="right">
 
@@ -350,28 +420,31 @@
                                         <b>৩</b>
                                     </div>
 
-                                    <h4>১০০% ডাটা সিকিউরিটি </h4>
+                                    <div class="third-benifit-descr">
+                                        <h4>১০০% ডাটা সিকিউরিটি </h4>
 
-                                    <span>
-                                        প্রযুক্তিগত প্রোটোকল ব্যবহার করে, যেমন HTTPS এবং <br>
-                                        অন্যান্য ক্রিপ্টোগ্রাফিক প্রোটোকল।
-                                    </span>
+                                        <span>
+                                            প্রযুক্তিগত প্রোটোকল ব্যবহার করে, যেমন HTTPS এবং <br>
+                                            অন্যান্য ক্রিপ্টোগ্রাফিক প্রোটোকল।
+                                        </span>
+                                    </div>
 
                                 </div>
 
-                                <div class="fourth-benifit">
-                                    
-                                    <div class="number-four">
+                                <div class="third-benifit">
+                                    <div class="number-three number-four">
                                         <b>৪</b>
                                     </div>
 
-                                    <h4>দৈনিক আয়ের ওভারভিউ</h4>
-                                    
-                                    <span>
-                                        ডাক্তারকে তাদের দৈনিক আয় দেখতে সাহায্য করে <br>
-                                        যেমন একটি বিশেষ ড্যাশবোর্ড বা রিপোর্টিং সিস্টেম এর <br>
-                                        মাধ্যমে তাদের দৈনিক আয়ের সারসংক্ষেপ প্রদর্শন করে।
-                                    </span>
+                                    <div class="third-benifit-descr">
+                                        <h4>দৈনিক আয়ের ওভারভিউ </h4>
+
+                                        <span>
+                                            ডাক্তারকে তাদের দৈনিক আয় দেখতে সাহায্য করে <br>
+                                            যেমন একটি বিশেষ ড্যাশবোর্ড বা রিপোর্টিং সিস্টেম এর <br>
+                                            মাধ্যমে তাদের দৈনিক আয়ের সারসংক্ষেপ প্রদর্শন করে।
+                                        </span>
+                                    </div>
 
                                 </div>
 
@@ -388,12 +461,12 @@
 
         <!-- start of Question-Answer Section -->
 
-        <div class="wrapper">
+        <div class="container-fluid">
             
             <div class="questions">
 
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-md-12">
                         <h3>প্রায়শই জিজ্ঞাসিত প্রশ্ন</h3>
                         <p>
                             আমার কি কোনো প্রশ্ন আছে হোমিওলী অ্যাপ নিয়ে? তাকলে আমরা তার উওর দিব। এই প্রায়শই <br>
@@ -404,7 +477,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         
                         <div class="data-related-questions">
                             <h3>ডাটা সম্পর্কিত প্রশ্ন</h3>
@@ -412,68 +485,62 @@
 
                     </div>
 
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-8">
 
                         <div class="data-related-answers">
 
-                            <ul id="accordion">
-                                <li>
-                                    <label for="first">আমাদের সার্ভিস কতটুকু নির্ভরযোগ্য? <span><img src="images/mingcute_up-fill.png" alt=""></span></label>
-                                    <input type="radio" name="accordion" id="first" checked>
-                                    <div class="content">
-                                        <p id="first-answer">
-                                            ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি <br>
-                                            অ্যাক্সেস করতে না পারে।
-                                            ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য <br>
-                                            প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
-                                        </p>
-                                    </div>
-                                
-                                </li>
-
-                                <li>
-                                    <label for="second">আমাদের ডাটা কতটুকু নিরাপদ?<span><img src="images/mingcute_down-fill.png" alt=""></span></label>
-                                    <input type="radio" name="accordion" id="second" >
-                                    <div class="content">
-                                        <p id="first-answer">
-                                            ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি <br>
-                                            অ্যাক্সেস করতে না পারে।
-                                            ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য <br>
-                                            প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
-                                        </p>
-                                    </div>
-                                
-                                </li>
-
-                                <li>
-                                    <label for="third">আমাদের ডাটা কতটুকু নিরাপদ? <span><img src="images/mingcute_down-fill.png" alt=""></span></label>
-                                    <input type="radio" name="accordion" id="third" >
-                                    <div class="content">
-                                        <p id="first-answer">
-                                            ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি <br>
-                                            অ্যাক্সেস করতে না পারে।
-                                            ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য <br>
-                                            প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
-                                        </p>
-                                    </div>
-                                
-                                </li>
-
-                            </ul>
+                            <div class="accordion-wrapper">
+                                <div class="accordion">
+                                  <input type="radio" name="radio-a" id="check1" checked>
+                                  <label class="accordion-label" for="check1">আমাদের সার্ভিস কতটুকু নির্ভরযোগ্য?</label>
+                                  <div class="accordion-content">
+                                    <p>
+                                      ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি <br>
+                                      অ্যাক্সেস করতে না পারে।
+                                      ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য <br>
+                                      প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
+                                  </p>
+                                  </div>
+                                </div>
+                                <div class="accordion">
+                                  <input type="radio" name="radio-a" id="check2">
+                                  <label class="accordion-label" for="check2">আমাদের ডাটা কতটুকু নিরাপদ?</label>
+                                  <div class="accordion-content">
+                                    <p>
+                                      ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি <br>
+                                      অ্যাক্সেস করতে না পারে।
+                                      ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য <br>
+                                      প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="accordion">
+                                  <input type="radio" name="radio-a" id="check3">
+                                  <label class="accordion-label" for="check3">আমাদের ডাটা কতটুকু নিরাপদ?</label>
+                                  <div class="accordion-content">
+                                    <p>
+                                      ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি <br>
+                                      অ্যাক্সেস করতে না পারে।
+                                      ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য <br>
+                                      প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
                         </div>
 
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="prescription-related-questions">
                             <h3>প্রেজক্রিপশ সম্পর্কিত প্রশ্ন</h3>
                         </div>
 
                     </div>
 
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-8">
 
                         
                         <div class="prescription-related-answers">
@@ -535,13 +602,14 @@
 
         <!-- start of App Section -->
 
-        <div class="wrapper">
+        <div class="container-fluid">
 
             <div class="app-section">
+                <div class="app-section-start">
 
                 <div class="row">
                     
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="left">
 
                             <h3>অ্যাপ ডাউনলোড করুন</h3>
@@ -554,20 +622,26 @@
                             <div class="app-btn">
                                 <img src="images/play-store-img.png" alt="">
                                 <div class="app-info">
-                                    <p>Get it from</p>
+                                    <b>Get it from</b><br>
                                     <span>Google Play</span>
                                 </div>
+                                <!-- <button>
+                                    <img src="images/play-store-img.png" alt="">
+                                    <p>Get it from</p>
+                                    <span>Google Play</span>
+                                </button> -->
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="right">
                             <img src="images/app-section-image.png" alt="">
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 
@@ -575,16 +649,18 @@
 
         <!-- start of Footer Section -->
 
-        <div class="wrapper">
+        <div class="container-fluid">
 
             <div class="footer">
 
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-2">
                         <div class="first-footer">
                             <div class="footer-logo">
 
-                                <a href="#"><img src="images/footer-logo.png" alt=""></a>
+                                <div class="footer-logo-image">
+                                    <a href="#"><img src="images/footer-logo.png" alt=""></a>
+                                </div>
                                 
                                 <div class="social-links">
 
@@ -604,54 +680,64 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-2">
 
                         <div class="second-footer">
                             <h4>যোগাযোগ করুণ</h4>
 
-                            <p>+8801849556965</p>
+                            <div class="second-footer-sections-descr">
+                                <p>+8801849556965</p>
 
-                            <a href="#">mujib@homeoly.com</a>
+                                <p><a href="#">mujib@homeoly.com</a></p>
 
-                            <p>Chittagong, Bangladesh</p>
+                                <p>Chittagong, Bangladesh</p>
+                            </div>
 
                         </div>
 
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-2">
                         <div class="third-footer">
                             <h4>আমাদের সম্পর্কে</h4>
-                            <p><a href="#">Company</a></p>
-                            <p><a href="#">Community</a></p>
-                            <p><a href="#">Careers</a></p>
+                            <div class="third-footer-sections-descr">
+                                <p><a href="#">Company</a></p>
+                                <p><a href="#">Community</a></p>
+                                <p><a href="#">Careers</a></p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-2">
                         <div class="fourth-footer">
                             <h4>কমিউনিটি</h4>
-                            <p><a href="#">Facebook Group</a></p>
-                            <p><a href="#">LinkdIn Group</a></p>
-                            <p><a href="#">Twitter Community</a></p>
+                            <div class="fourth-footer-sections-descr">
+                                <p><a href="#">Facebook Group</a></p>
+                                <p><a href="#">LinkdIn Group</a></p>
+                                <p><a href="#">Twitter Community</a></p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-2">
                         <div class="fifth-footer">
                             <h4>ব্লগ</h4>
-                            <p><a href="#">Medicine</a></p>
-                            <p><a href="#">Homeopathy</a></p>
-                            <p><a href="#">Natural</a></p>
+                            <div class="fifth-footer-sections-descr">
+                                <p><a href="#">Medicine</a></p>
+                                <p><a href="#">Homeopathy</a></p>
+                                <p><a href="#">Natural</a></p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-2">
                         <div class="sixth-footer">
                             <h4>সাবস্ক্রাইব</h4>
-                            <p>প্রতিদিন আপডেট পেতে</p>
-                            <input type="text" placeholder="Email Address">
-                            <button><img src="images/email.sub.png" alt=""></button>
+                            <div class="sixth-footer-sections-descr">
+                                <p>প্রতিদিন আপডেট পেতে</p>
+                                <input type="text" placeholder="Email Address">
+                                <button><img src="images/email.sub.png" alt=""></button>
+                            </div>
                         </div>
                     </div>
 
